@@ -1,0 +1,124 @@
+*{
+    /* background-color: #f0f0f0; */
+    background-color: #ffffff;
+}
+
+nav{
+    margin-top: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a.logo{
+    padding-left: 20px;
+    padding-top: 30px;
+    font-size: 50px;
+    text-decoration: none;
+    color: blue;
+}
+
+.links{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    padding-right: 14px;
+}
+
+.search{
+    padding: 8px;
+    margin-right: 20px;
+    border: none;
+    cursor: pointer;
+    /* background-color: #ffffff; */
+}
+
+.fa-solid{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+header .welcomeh1 {
+    margin-top: 80px;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+header .welcomeh1 .welcomespan{
+    color: blue;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    border-radius: 60px;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.titre{
+    display: flex;
+    justify-content: center;
+    color: blue;
+}
+
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+}
+
+.product{
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
+    /* background-color:blue; */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: all 0.3s ease;
+    padding: 8 12px;
+}
+
+.icon:hover{
+    /* background-color: red */
+}
+
+.ttprice{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    margin-top: 40px ;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
